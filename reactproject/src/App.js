@@ -1,16 +1,11 @@
-import {useState} from 'react';
+import Topbar from "./components/topbar/Topbar";
 
-
-
-const App = () => {
-  const [sidebarOpen,setSidebarOpen]
-  return (
-    <div className ="container" >
-
-
+function App(){
+  return(
+    <div  >
+<Topbar/>
     </div>
-  
+
   );
 }
-
 export default App;

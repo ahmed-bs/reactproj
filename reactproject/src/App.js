@@ -1,19 +1,18 @@
 import Topbar from "./components/topbar/Topbar";
-
+import Sidebar from "./components/sidebar/Sidebar";
+import "./app.css"
 function App(){
   return(
     <div  >
 <Topbar/>
-test <br/>
-test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>
-test <br/>
+  <div className="container">
+    <Sidebar/>
+    <div className="others"> the other side</div>
+  </div>
 
-test <br/>
-test <br/>
-test <br/>
-test <br/>
-test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>test <br/>
-    </div>
+
+
+   </div>
 
   );
 }

@@ -49,3 +49,30 @@ export const userData = [
     },
  
   ];
+
+  export const userRows = [
+    { id: 1, username: "Snow Jon" ,
+     Avatar: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+  Email: "Jon44@gmail.com" ,
+status: "active" ,
+transaction: "$453" ,
+},
+{ id: 2, username: "Snow Jon" ,
+     Avatar: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+  Email: "Jon44@gmail.com" ,
+status: "active" ,
+transaction: "$453" ,
+},
+{ id: 3, username: "Snow Jon" ,
+Avatar: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+Email: "Jon44@gmail.com" ,
+status: "active" ,
+transaction: "$453" ,
+},
+{ id: 4, username: "Snow Jon" ,
+     Avatar: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+  Email: "Jon44@gmail.com" ,
+status: "active" ,
+transaction: "$453" ,
+},
+  ];    

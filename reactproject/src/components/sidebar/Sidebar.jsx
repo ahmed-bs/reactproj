@@ -21,7 +21,7 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
+              <LineStyle className="sidebarIcon active" />
               Home
             </li>
             <li className="sidebarListItem">

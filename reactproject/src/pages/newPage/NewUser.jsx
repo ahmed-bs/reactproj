@@ -32,9 +32,15 @@ export default function NewUser() {
                    <input type="text" placeholder="somewhere"/>
                </div>
                <div className="newUserItem">
-                   <label >Gender</label>
+                   <label >Gender:</label>
+                   <div className="newUserGEnder">
                    <input type="radio" name="male" id="male" value="male"/>
+                   <label for="male">male</label>
+                   <input type="radio" name="female" id="female" value="female"/>
+                   <label for="female">female</label>
+                   </div>
                </div>
+               <button className="newUserButton">Create</button>
            </form>
         </div>
     )
